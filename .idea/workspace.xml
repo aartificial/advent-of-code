@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CargoProjects">
+    <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/day1/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/day2/Cargo.toml" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="61217d67-d728-4d7b-b5da-2fd6933f85a5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advent-of-code.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1/Cargo.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1/Cargo.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1/res/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1/src/a.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1/src/b.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1/target/.rustc_info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1/target/CACHEDIR.TAG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1/target/debug/.cargo-lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1/target/debug/.fingerprint/day1-0dcdc94b44674256/bin-day1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1/target/debug/.fingerprint/day1-0dcdc94b44674256/bin-day1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1/target/debug/.fingerprint/day1-0dcdc94b44674256/invoked.timestamp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1/target/debug/.fingerprint/day1-4612176033bb8521/bin-day1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1/target/debug/.fingerprint/day1-4612176033bb8521/bin-day1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1/target/debug/.fingerprint/day1-4612176033bb8521/dep-bin-day1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1/target/debug/.fingerprint/day1-4612176033bb8521/invoked.timestamp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1/target/debug/.fingerprint/day1-5627552ae3ab33ae/invoked.timestamp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1/target/debug/.fingerprint/day1-5627552ae3ab33ae/test-bin-day1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1/target/debug/.fingerprint/day1-5627552ae3ab33ae/test-bin-day1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1/target/debug/day1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1/target/debug/day1.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1/target/debug/deps/day1-4612176033bb8521" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1/target/debug/deps/day1-4612176033bb8521.1d84jistm2a8lb64.rcgu.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1/target/debug/deps/day1-4612176033bb8521.1y7f95sehzt4abke.rcgu.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1/target/debug/deps/day1-4612176033bb8521.3h49jnca2k8kailg.rcgu.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1/target/debug/deps/day1-4612176033bb8521.3xnek1xx0uppecu3.rcgu.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1/target/debug/deps/day1-4612176033bb8521.4hei11xrwl4frqoe.rcgu.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1/target/debug/deps/day1-4612176033bb8521.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1/target/debug/deps/day1-4612176033bb8521.y16l61o2v3h5w5.rcgu.o" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Rust File" />
+      </list>
+    </option>
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="bgro229d" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2QnUIBqlDNPTA1TY6erauqmZ1VR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "go.import.settings.migrated": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Cargo.Run day1_b">
+    <configuration name="Run day1_a" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package day1 --bin day1_a" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/day1" />
+      <option name="emulateTerminal" value="false" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run day1_a" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package day1 --bin day1_a" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/day1" />
+      <option name="emulateTerminal" value="false" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="NO" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run day1_b" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package day1 --bin day1_b" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/day1" />
+      <option name="emulateTerminal" value="false" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="NO" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
+      <option name="command" value="run" />
+      <option name="emulateTerminal" value="false" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Cargo.Run day1_a" />
+      <item itemvalue="Cargo.Run day1_b" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cargo.Run day1_b" />
+        <item itemvalue="Cargo.Run day1_a" />
+        <item itemvalue="Cargo.Run day1_a" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="RustProjectSettings">
+    <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="61217d67-d728-4d7b-b5da-2fd6933f85a5" name="Changes" comment="" />
+      <created>1685988758012</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1685988758012</updated>
+      <workItem from="1685988759062" duration="1772000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+</project>
