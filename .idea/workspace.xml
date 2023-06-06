@@ -7,9 +7,10 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
     <cargoProject FILE="$PROJECT_DIR$/day1/Cargo.toml" />
     <cargoProject FILE="$PROJECT_DIR$/day2/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/day3/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61217d67-d728-4d7b-b5da-2fd6933f85a5" name="Changes" comment="day1">
+    <list default="true" id="61217d67-d728-4d7b-b5da-2fd6933f85a5" name="Changes" comment="day2">
       <change afterPath="$PROJECT_DIR$/day1/Cargo.lock" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/day1/target/.rustc_info.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/day1/target/CACHEDIR.TAG" afterDir="false" />
@@ -34,11 +35,208 @@
       <change afterPath="$PROJECT_DIR$/day1/target/debug/deps/day1-4612176033bb8521.4hei11xrwl4frqoe.rcgu.o" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/day1/target/debug/deps/day1-4612176033bb8521.d" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/day1/target/debug/deps/day1-4612176033bb8521.y16l61o2v3h5w5.rcgu.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day2/Cargo.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day2/res/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day2/src/a.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day2/src/b.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/Cargo.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/Cargo.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/res/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/res/test_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/src/a.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/src/b.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/.rustc_info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/CACHEDIR.TAG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/.cargo-lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/.fingerprint/day2-23556af096bbb952/dep-test-bin-day2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/.fingerprint/day2-23556af096bbb952/invoked.timestamp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/.fingerprint/day2-23556af096bbb952/test-bin-day2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/.fingerprint/day2-23556af096bbb952/test-bin-day2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/.fingerprint/day2-258bd1ebed206055/bin-day2_b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/.fingerprint/day2-258bd1ebed206055/bin-day2_b.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/.fingerprint/day2-258bd1ebed206055/dep-bin-day2_b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/.fingerprint/day2-258bd1ebed206055/invoked.timestamp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/.fingerprint/day2-30b8f3a018f3b81b/bin-day2_b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/.fingerprint/day2-30b8f3a018f3b81b/bin-day2_b.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/.fingerprint/day2-30b8f3a018f3b81b/dep-bin-day2_b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/.fingerprint/day2-30b8f3a018f3b81b/invoked.timestamp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/.fingerprint/day2-3b984360e37c7aa7/bin-day2_a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/.fingerprint/day2-3b984360e37c7aa7/bin-day2_a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/.fingerprint/day2-3b984360e37c7aa7/dep-bin-day2_a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/.fingerprint/day2-3b984360e37c7aa7/invoked.timestamp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/.fingerprint/day2-4ada62916540233f/dep-test-bin-day2_a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/.fingerprint/day2-4ada62916540233f/invoked.timestamp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/.fingerprint/day2-4ada62916540233f/test-bin-day2_a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/.fingerprint/day2-4ada62916540233f/test-bin-day2_a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/.fingerprint/day2-59e611acfad5c639/bin-day2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/.fingerprint/day2-59e611acfad5c639/bin-day2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/.fingerprint/day2-59e611acfad5c639/dep-bin-day2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/.fingerprint/day2-59e611acfad5c639/invoked.timestamp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/.fingerprint/day2-a155eee79fea3e74/dep-test-bin-day2_b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/.fingerprint/day2-a155eee79fea3e74/invoked.timestamp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/.fingerprint/day2-a155eee79fea3e74/test-bin-day2_b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/.fingerprint/day2-a155eee79fea3e74/test-bin-day2_b.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/.fingerprint/day2-b776b378ba9c4aa1/bin-day2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/.fingerprint/day2-b776b378ba9c4aa1/bin-day2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/.fingerprint/day2-b776b378ba9c4aa1/dep-bin-day2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/.fingerprint/day2-b776b378ba9c4aa1/invoked.timestamp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/.fingerprint/day2-d80bc179277d3607/bin-day2_a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/.fingerprint/day2-d80bc179277d3607/bin-day2_a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/.fingerprint/day2-d80bc179277d3607/dep-bin-day2_a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/.fingerprint/day2-d80bc179277d3607/invoked.timestamp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/day2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/day2.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/day2_a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/day2_a.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/day2_b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/day2_b.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/deps/day2-23556af096bbb952.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/deps/day2-59e611acfad5c639.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/deps/day2-b776b378ba9c4aa1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/deps/day2-b776b378ba9c4aa1.1vbxaigv8ypo7txo.rcgu.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/deps/day2-b776b378ba9c4aa1.2wokw2539q9s88fv.rcgu.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/deps/day2-b776b378ba9c4aa1.3mvhzk8fd7wohfqm.rcgu.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/deps/day2-b776b378ba9c4aa1.59ijgz8kw0jm661e.rcgu.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/deps/day2-b776b378ba9c4aa1.arao534vfu0938p.rcgu.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/deps/day2-b776b378ba9c4aa1.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/deps/day2-b776b378ba9c4aa1.r9j336l6xu0lo6f.rcgu.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/deps/day2_a-3b984360e37c7aa7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/deps/day2_a-3b984360e37c7aa7.1oxriemn56c2niy6.rcgu.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/deps/day2_a-3b984360e37c7aa7.1qs5su3m7tcjezup.rcgu.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/deps/day2_a-3b984360e37c7aa7.1yrso9l6fdqwq32q.rcgu.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/deps/day2_a-3b984360e37c7aa7.22r2ts66s0kle1fe.rcgu.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/deps/day2_a-3b984360e37c7aa7.3hdwifht5aenry7w.rcgu.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/deps/day2_a-3b984360e37c7aa7.3zs8yeu503tjx1r3.rcgu.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/deps/day2_a-3b984360e37c7aa7.4s8sh6xipxd40i24.rcgu.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/deps/day2_a-3b984360e37c7aa7.4xlyf9d6wep5g6lb.rcgu.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/deps/day2_a-3b984360e37c7aa7.58mhra0pbf80fgfd.rcgu.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/deps/day2_a-3b984360e37c7aa7.59k80jb3py7dxjva.rcgu.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/deps/day2_a-3b984360e37c7aa7.9l2p8xndhfrkq83.rcgu.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/deps/day2_a-3b984360e37c7aa7.auqlsa83m6bquh9.rcgu.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/deps/day2_a-3b984360e37c7aa7.ccp7o8dfk0ywh4i.rcgu.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/deps/day2_a-3b984360e37c7aa7.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/deps/day2_a-3b984360e37c7aa7.hcub2xwyakt9p59.rcgu.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/deps/day2_a-3b984360e37c7aa7.n3tihce7kkdyqg2.rcgu.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/deps/day2_a-4ada62916540233f.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/deps/day2_a-d80bc179277d3607.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/deps/day2_b-258bd1ebed206055.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/deps/day2_b-30b8f3a018f3b81b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/deps/day2_b-30b8f3a018f3b81b.183rqxhtnak89sdt.rcgu.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/deps/day2_b-30b8f3a018f3b81b.1qhiz0v2a8no0xaj.rcgu.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/deps/day2_b-30b8f3a018f3b81b.1sabzemd52xwp2v1.rcgu.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/deps/day2_b-30b8f3a018f3b81b.2fgrpz62ec2hcytq.rcgu.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/deps/day2_b-30b8f3a018f3b81b.2ncvzrqhtc514v0j.rcgu.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/deps/day2_b-30b8f3a018f3b81b.3bslann7n2fld4tx.rcgu.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/deps/day2_b-30b8f3a018f3b81b.3rt1pudfuovyevwh.rcgu.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/deps/day2_b-30b8f3a018f3b81b.3vkw3ix2p8bm12mv.rcgu.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/deps/day2_b-30b8f3a018f3b81b.4b4k6vc1zxuynv8k.rcgu.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/deps/day2_b-30b8f3a018f3b81b.4l5qwri0u7bnfb0d.rcgu.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/deps/day2_b-30b8f3a018f3b81b.50psi81n8eme6yig.rcgu.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/deps/day2_b-30b8f3a018f3b81b.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/deps/day2_b-30b8f3a018f3b81b.t5ctatfbm1jrxkc.rcgu.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/deps/day2_b-30b8f3a018f3b81b.use29vszmx3yixj.rcgu.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/deps/day2_b-a155eee79fea3e74.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/deps/libday2-23556af096bbb952.rmeta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/deps/libday2-59e611acfad5c639.rmeta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/deps/libday2_a-4ada62916540233f.rmeta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/deps/libday2_a-d80bc179277d3607.rmeta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/deps/libday2_b-258bd1ebed206055.rmeta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/deps/libday2_b-a155eee79fea3e74.rmeta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2-1cs9c5w4swrgk/s-glmsn0rfrk-kfrvo0-2qzrd0cj6an7h/1vbxaigv8ypo7txo.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2-1cs9c5w4swrgk/s-glmsn0rfrk-kfrvo0-2qzrd0cj6an7h/2wokw2539q9s88fv.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2-1cs9c5w4swrgk/s-glmsn0rfrk-kfrvo0-2qzrd0cj6an7h/3mvhzk8fd7wohfqm.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2-1cs9c5w4swrgk/s-glmsn0rfrk-kfrvo0-2qzrd0cj6an7h/59ijgz8kw0jm661e.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2-1cs9c5w4swrgk/s-glmsn0rfrk-kfrvo0-2qzrd0cj6an7h/arao534vfu0938p.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2-1cs9c5w4swrgk/s-glmsn0rfrk-kfrvo0-2qzrd0cj6an7h/dep-graph.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2-1cs9c5w4swrgk/s-glmsn0rfrk-kfrvo0-2qzrd0cj6an7h/query-cache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2-1cs9c5w4swrgk/s-glmsn0rfrk-kfrvo0-2qzrd0cj6an7h/r9j336l6xu0lo6f.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2-1cs9c5w4swrgk/s-glmsn0rfrk-kfrvo0-2qzrd0cj6an7h/work-products.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2-1cs9c5w4swrgk/s-glmsn0rfrk-kfrvo0.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2-1rduw6o4gy9v3/s-glmti08t8g-ledthe-34pt0rgcg6jrk/dep-graph.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2-1rduw6o4gy9v3/s-glmti08t8g-ledthe-34pt0rgcg6jrk/query-cache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2-1rduw6o4gy9v3/s-glmti08t8g-ledthe-34pt0rgcg6jrk/work-products.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2-1rduw6o4gy9v3/s-glmti08t8g-ledthe.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2-2z9w89uadd6c0/s-glmti08tcx-18xbl1d-qfu0mm7rmpjx/dep-graph.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2-2z9w89uadd6c0/s-glmti08tcx-18xbl1d-qfu0mm7rmpjx/query-cache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2-2z9w89uadd6c0/s-glmti08tcx-18xbl1d-qfu0mm7rmpjx/work-products.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2-2z9w89uadd6c0/s-glmti08tcx-18xbl1d.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_a-2ma5hxtq4b0wq/s-glnsdihj6z-1jcbrv9-working/dep-graph.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_a-2ma5hxtq4b0wq/s-glnsdihj6z-1jcbrv9-working/dep-graph.part.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_a-2ma5hxtq4b0wq/s-glnsdihj6z-1jcbrv9-working/query-cache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_a-2ma5hxtq4b0wq/s-glnsdihj6z-1jcbrv9-working/work-products.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_a-2ma5hxtq4b0wq/s-glnsdihj6z-1jcbrv9.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_a-2ma5hxtq4b0wq/s-glnsdmg5to-134n9jz-15acq5c12c4qe/dep-graph.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_a-2ma5hxtq4b0wq/s-glnsdmg5to-134n9jz-15acq5c12c4qe/query-cache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_a-2ma5hxtq4b0wq/s-glnsdmg5to-134n9jz-15acq5c12c4qe/work-products.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_a-2ma5hxtq4b0wq/s-glnsdmg5to-134n9jz.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_a-2midzuv9zhjrv/s-glnsdihj6w-142x5t0-working/dep-graph.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_a-2midzuv9zhjrv/s-glnsdihj6w-142x5t0-working/dep-graph.part.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_a-2midzuv9zhjrv/s-glnsdihj6w-142x5t0-working/query-cache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_a-2midzuv9zhjrv/s-glnsdihj6w-142x5t0-working/work-products.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_a-2midzuv9zhjrv/s-glnsdihj6w-142x5t0.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_a-2midzuv9zhjrv/s-glnsdmg5tg-1kjaq5j-22kblvjc6c3hq/dep-graph.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_a-2midzuv9zhjrv/s-glnsdmg5tg-1kjaq5j-22kblvjc6c3hq/query-cache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_a-2midzuv9zhjrv/s-glnsdmg5tg-1kjaq5j-22kblvjc6c3hq/work-products.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_a-2midzuv9zhjrv/s-glnsdmg5tg-1kjaq5j.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_a-37finsemz9y3v/s-glnsdzjnka-oqx74f-v3pfsbjgazof/1oxriemn56c2niy6.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_a-37finsemz9y3v/s-glnsdzjnka-oqx74f-v3pfsbjgazof/1qs5su3m7tcjezup.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_a-37finsemz9y3v/s-glnsdzjnka-oqx74f-v3pfsbjgazof/1yrso9l6fdqwq32q.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_a-37finsemz9y3v/s-glnsdzjnka-oqx74f-v3pfsbjgazof/22r2ts66s0kle1fe.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_a-37finsemz9y3v/s-glnsdzjnka-oqx74f-v3pfsbjgazof/3hdwifht5aenry7w.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_a-37finsemz9y3v/s-glnsdzjnka-oqx74f-v3pfsbjgazof/3zs8yeu503tjx1r3.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_a-37finsemz9y3v/s-glnsdzjnka-oqx74f-v3pfsbjgazof/4s8sh6xipxd40i24.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_a-37finsemz9y3v/s-glnsdzjnka-oqx74f-v3pfsbjgazof/4xlyf9d6wep5g6lb.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_a-37finsemz9y3v/s-glnsdzjnka-oqx74f-v3pfsbjgazof/59k80jb3py7dxjva.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_a-37finsemz9y3v/s-glnsdzjnka-oqx74f-v3pfsbjgazof/9l2p8xndhfrkq83.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_a-37finsemz9y3v/s-glnsdzjnka-oqx74f-v3pfsbjgazof/auqlsa83m6bquh9.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_a-37finsemz9y3v/s-glnsdzjnka-oqx74f-v3pfsbjgazof/ccp7o8dfk0ywh4i.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_a-37finsemz9y3v/s-glnsdzjnka-oqx74f-v3pfsbjgazof/dep-graph.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_a-37finsemz9y3v/s-glnsdzjnka-oqx74f-v3pfsbjgazof/hcub2xwyakt9p59.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_a-37finsemz9y3v/s-glnsdzjnka-oqx74f-v3pfsbjgazof/n3tihce7kkdyqg2.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_a-37finsemz9y3v/s-glnsdzjnka-oqx74f-v3pfsbjgazof/query-cache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_a-37finsemz9y3v/s-glnsdzjnka-oqx74f-v3pfsbjgazof/work-products.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_a-37finsemz9y3v/s-glnsdzjnka-oqx74f.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_b-13o595h8ly05p/s-glnsf6j7ev-oo72aq-working/dep-graph.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_b-13o595h8ly05p/s-glnsf6j7ev-oo72aq-working/dep-graph.part.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_b-13o595h8ly05p/s-glnsf6j7ev-oo72aq-working/query-cache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_b-13o595h8ly05p/s-glnsf6j7ev-oo72aq-working/work-products.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_b-13o595h8ly05p/s-glnsf6j7ev-oo72aq.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_b-13o595h8ly05p/s-glnsf7hnh9-rum7s1-working/dep-graph.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_b-13o595h8ly05p/s-glnsf7hnh9-rum7s1-working/dep-graph.part.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_b-13o595h8ly05p/s-glnsf7hnh9-rum7s1-working/query-cache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_b-13o595h8ly05p/s-glnsf7hnh9-rum7s1-working/work-products.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_b-13o595h8ly05p/s-glnsf7hnh9-rum7s1.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_b-13o595h8ly05p/s-glnsfb0jp6-fqesgc-idv96m2x47wl/dep-graph.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_b-13o595h8ly05p/s-glnsfb0jp6-fqesgc-idv96m2x47wl/query-cache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_b-13o595h8ly05p/s-glnsfb0jp6-fqesgc-idv96m2x47wl/work-products.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_b-13o595h8ly05p/s-glnsfb0jp6-fqesgc.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_b-2rrdy89rkkiby/s-glnsf6j7i5-ynv9m7-working/dep-graph.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_b-2rrdy89rkkiby/s-glnsf6j7i5-ynv9m7-working/dep-graph.part.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_b-2rrdy89rkkiby/s-glnsf6j7i5-ynv9m7-working/query-cache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_b-2rrdy89rkkiby/s-glnsf6j7i5-ynv9m7-working/work-products.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_b-2rrdy89rkkiby/s-glnsf6j7i5-ynv9m7.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_b-2rrdy89rkkiby/s-glnsf7hnib-11n4qtd-working/dep-graph.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_b-2rrdy89rkkiby/s-glnsf7hnib-11n4qtd-working/dep-graph.part.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_b-2rrdy89rkkiby/s-glnsf7hnib-11n4qtd-working/query-cache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_b-2rrdy89rkkiby/s-glnsf7hnib-11n4qtd-working/work-products.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_b-2rrdy89rkkiby/s-glnsf7hnib-11n4qtd.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_b-2rrdy89rkkiby/s-glnsfb0juu-e1s6lt-1o85t3581ncbd/dep-graph.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_b-2rrdy89rkkiby/s-glnsfb0juu-e1s6lt-1o85t3581ncbd/query-cache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_b-2rrdy89rkkiby/s-glnsfb0juu-e1s6lt-1o85t3581ncbd/work-products.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_b-2rrdy89rkkiby/s-glnsfb0juu-e1s6lt.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_b-3bez1hk6gm930/s-glnsfcjmxe-16jdusg-1kkyy5ny96yxu/183rqxhtnak89sdt.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_b-3bez1hk6gm930/s-glnsfcjmxe-16jdusg-1kkyy5ny96yxu/1qhiz0v2a8no0xaj.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_b-3bez1hk6gm930/s-glnsfcjmxe-16jdusg-1kkyy5ny96yxu/1sabzemd52xwp2v1.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_b-3bez1hk6gm930/s-glnsfcjmxe-16jdusg-1kkyy5ny96yxu/2fgrpz62ec2hcytq.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_b-3bez1hk6gm930/s-glnsfcjmxe-16jdusg-1kkyy5ny96yxu/2ncvzrqhtc514v0j.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_b-3bez1hk6gm930/s-glnsfcjmxe-16jdusg-1kkyy5ny96yxu/3bslann7n2fld4tx.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_b-3bez1hk6gm930/s-glnsfcjmxe-16jdusg-1kkyy5ny96yxu/3rt1pudfuovyevwh.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_b-3bez1hk6gm930/s-glnsfcjmxe-16jdusg-1kkyy5ny96yxu/3vkw3ix2p8bm12mv.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_b-3bez1hk6gm930/s-glnsfcjmxe-16jdusg-1kkyy5ny96yxu/4b4k6vc1zxuynv8k.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_b-3bez1hk6gm930/s-glnsfcjmxe-16jdusg-1kkyy5ny96yxu/4l5qwri0u7bnfb0d.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_b-3bez1hk6gm930/s-glnsfcjmxe-16jdusg-1kkyy5ny96yxu/50psi81n8eme6yig.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_b-3bez1hk6gm930/s-glnsfcjmxe-16jdusg-1kkyy5ny96yxu/dep-graph.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_b-3bez1hk6gm930/s-glnsfcjmxe-16jdusg-1kkyy5ny96yxu/query-cache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_b-3bez1hk6gm930/s-glnsfcjmxe-16jdusg-1kkyy5ny96yxu/t5ctatfbm1jrxkc.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_b-3bez1hk6gm930/s-glnsfcjmxe-16jdusg-1kkyy5ny96yxu/use29vszmx3yixj.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_b-3bez1hk6gm930/s-glnsfcjmxe-16jdusg-1kkyy5ny96yxu/work-products.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day3/target/debug/incremental/day2_b-3bez1hk6gm930/s-glnsfcjmxe-16jdusg.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/advent-of-code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/advent-of-code.iml" afterDir="false" />
     </list>
@@ -65,6 +263,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectId" id="2QnUIBqlDNPTA1TY6erauqmZ1VR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -82,6 +283,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "go.import.settings.migrated": "true",
+    "last_opened_file_path": "/Users/jordisoler/repos/github.com/advent-of-code",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -92,11 +294,16 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="RsExternalLinterProjectSettings">
     <option name="channel" value="stable" />
     <option name="runOnTheFly" value="true" />
   </component>
-  <component name="RunManager" selected="Cargo.Run day2_b">
+  <component name="RunManager" selected="Cargo.Run day3_a">
     <configuration name="Run day1_a" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="command" value="run --package day1 --bin day1_a" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$/day1" />
@@ -182,14 +389,33 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Run day3_a" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package day3 --bin day3_a" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/day3" />
+      <option name="emulateTerminal" value="false" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Cargo.Run day2_b" />
+      <item itemvalue="Cargo.Run day3_a" />
       <item itemvalue="Cargo.Run day2_a" />
       <item itemvalue="Cargo.Run day1_a" />
       <item itemvalue="Cargo.Run day1_b" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cargo.Run day3_a" />
         <item itemvalue="Cargo.Run day2_b" />
         <item itemvalue="Cargo.Run day2_a" />
         <item itemvalue="Cargo.Run day1_b" />
@@ -210,7 +436,7 @@
       <updated>1685988758012</updated>
       <workItem from="1685988759062" duration="6998000" />
       <workItem from="1686066179026" duration="393000" />
-      <workItem from="1686066580159" duration="168000" />
+      <workItem from="1686066580159" duration="4006000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1685990583668</created>
@@ -233,7 +459,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685990618728</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="day2">
+      <created>1686066928506</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1686066928506</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,7 +475,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="day1" />
-    <option name="LAST_COMMIT_MESSAGE" value="day1" />
+    <MESSAGE value="day2" />
+    <option name="LAST_COMMIT_MESSAGE" value="day2" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
