@@ -9,16 +9,18 @@
     <cargoProject FILE="$PROJECT_DIR$/day2/Cargo.toml" />
     <cargoProject FILE="$PROJECT_DIR$/day3/Cargo.toml" />
     <cargoProject FILE="$PROJECT_DIR$/day4/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/day5/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61217d67-d728-4d7b-b5da-2fd6933f85a5" name="Changes" comment="day3b">
+    <list default="true" id="61217d67-d728-4d7b-b5da-2fd6933f85a5" name="Changes" comment="day4">
       <change afterPath="$PROJECT_DIR$/day1/Cargo.lock" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/day3/Cargo.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day4/Cargo.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day4/res/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day4/res/test_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day4/src/a.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day4/src/b.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5/Cargo.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5/res/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5/res/test_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5/src/a.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5/src/b.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/advent-of-code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/advent-of-code.iml" afterDir="false" />
     </list>
@@ -72,7 +74,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
-    "settings.editor.selected.configurable": "com.ioannuwu.inline.ui.MyConfigurable",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -85,24 +87,7 @@
     <option name="channel" value="stable" />
     <option name="runOnTheFly" value="true" />
   </component>
-  <component name="RunManager" selected="Cargo.Run day4_b">
-    <configuration name="Expand day3_b [day3]" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="expand --bin day3_b --color=always --theme=Dracula --tests" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$/day3" />
-      <option name="emulateTerminal" value="false" />
-      <option name="channel" value="DEFAULT" />
-      <option name="requiredFeatures" value="true" />
-      <option name="allFeatures" value="false" />
-      <option name="withSudo" value="false" />
-      <option name="buildTarget" value="REMOTE" />
-      <option name="backtrace" value="SHORT" />
-      <envs />
-      <option name="isRedirectInput" value="false" />
-      <option name="redirectInputPath" value="" />
-      <method v="2">
-        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Cargo.Run day5_b">
     <configuration name="Run day1_a" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="command" value="run --package day1 --bin day1_a" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$/day1" />
@@ -113,23 +98,6 @@
       <option name="withSudo" value="false" />
       <option name="buildTarget" value="REMOTE" />
       <option name="backtrace" value="NO" />
-      <envs />
-      <option name="isRedirectInput" value="false" />
-      <option name="redirectInputPath" value="" />
-      <method v="2">
-        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Run day3_a" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="run --package day3 --bin day3_a" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$/day3" />
-      <option name="emulateTerminal" value="false" />
-      <option name="channel" value="DEFAULT" />
-      <option name="requiredFeatures" value="true" />
-      <option name="allFeatures" value="false" />
-      <option name="withSudo" value="false" />
-      <option name="buildTarget" value="REMOTE" />
-      <option name="backtrace" value="SHORT" />
       <envs />
       <option name="isRedirectInput" value="false" />
       <option name="redirectInputPath" value="" />
@@ -188,20 +156,54 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Run day5_a" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package day5 --bin day5_a" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/day5" />
+      <option name="emulateTerminal" value="false" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run day5_b" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package day5 --bin day5_b" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/day5" />
+      <option name="emulateTerminal" value="false" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Cargo.Expand day3_b [day3]" />
-      <item itemvalue="Cargo.Run day3_a" />
       <item itemvalue="Cargo.Run day3_b" />
       <item itemvalue="Cargo.Run day4_a" />
       <item itemvalue="Cargo.Run day4_b" />
+      <item itemvalue="Cargo.Run day5_a" />
+      <item itemvalue="Cargo.Run day5_b" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cargo.Run day5_b" />
+        <item itemvalue="Cargo.Run day5_a" />
         <item itemvalue="Cargo.Run day4_b" />
         <item itemvalue="Cargo.Run day4_a" />
         <item itemvalue="Cargo.Run day3_b" />
-        <item itemvalue="Cargo.Expand day3_b [day3]" />
-        <item itemvalue="Cargo.Run day3_a" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +220,7 @@
       <updated>1685988758012</updated>
       <workItem from="1685988759062" duration="6998000" />
       <workItem from="1686066179026" duration="393000" />
-      <workItem from="1686066580159" duration="6083000" />
+      <workItem from="1686066580159" duration="13807000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1685990583668</created>
@@ -269,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686071370411</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="day4">
+      <created>1686072929565</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1686072929565</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,7 +290,8 @@
     <MESSAGE value="day2" />
     <MESSAGE value="day3a" />
     <MESSAGE value="day3b" />
-    <option name="LAST_COMMIT_MESSAGE" value="day3b" />
+    <MESSAGE value="day4" />
+    <option name="LAST_COMMIT_MESSAGE" value="day4" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
