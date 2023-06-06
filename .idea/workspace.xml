@@ -9,20 +9,8 @@
     <cargoProject FILE="$PROJECT_DIR$/day2/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61217d67-d728-4d7b-b5da-2fd6933f85a5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advent-of-code.iml" afterDir="false" />
+    <list default="true" id="61217d67-d728-4d7b-b5da-2fd6933f85a5" name="Changes" comment="day1">
       <change afterPath="$PROJECT_DIR$/day1/Cargo.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day1/Cargo.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day1/res/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day1/src/a.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day1/src/b.rs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/day1/target/.rustc_info.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/day1/target/CACHEDIR.TAG" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/day1/target/debug/.cargo-lock" afterDir="false" />
@@ -46,6 +34,13 @@
       <change afterPath="$PROJECT_DIR$/day1/target/debug/deps/day1-4612176033bb8521.4hei11xrwl4frqoe.rcgu.o" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/day1/target/debug/deps/day1-4612176033bb8521.d" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/day1/target/debug/deps/day1-4612176033bb8521.y16l61o2v3h5w5.rcgu.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2/Cargo.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2/res/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2/src/a.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2/src/b.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advent-of-code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/advent-of-code.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,10 +88,15 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
+    "settings.editor.selected.configurable": "com.ioannuwu.inline.ui.MyConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Cargo.Run day1_b">
+  <component name="RsExternalLinterProjectSettings">
+    <option name="channel" value="stable" />
+    <option name="runOnTheFly" value="true" />
+  </component>
+  <component name="RunManager" selected="Cargo.Run day2_b">
     <configuration name="Run day1_a" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="command" value="run --package day1 --bin day1_a" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$/day1" />
@@ -148,8 +148,26 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
-      <option name="command" value="run" />
+    <configuration name="Run day2_a" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package day2 --bin day2_a" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/day2" />
+      <option name="emulateTerminal" value="false" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run day2_b" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package day2 --bin day2_b" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/day2" />
       <option name="emulateTerminal" value="false" />
       <option name="channel" value="DEFAULT" />
       <option name="requiredFeatures" value="true" />
@@ -165,13 +183,16 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Cargo.Run day2_b" />
+      <item itemvalue="Cargo.Run day2_a" />
       <item itemvalue="Cargo.Run day1_a" />
       <item itemvalue="Cargo.Run day1_b" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cargo.Run day2_b" />
+        <item itemvalue="Cargo.Run day2_a" />
         <item itemvalue="Cargo.Run day1_b" />
-        <item itemvalue="Cargo.Run day1_a" />
         <item itemvalue="Cargo.Run day1_a" />
       </list>
     </recent_temporary>
@@ -187,14 +208,47 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1685988758012</updated>
-      <workItem from="1685988759062" duration="1772000" />
+      <workItem from="1685988759062" duration="6998000" />
+      <workItem from="1686066179026" duration="393000" />
+      <workItem from="1686066580159" duration="168000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1685990583668</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685990583668</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial commit">
+      <created>1685990589433</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685990589433</updated>
+    </task>
+    <task id="LOCAL-00003" summary="day1">
+      <created>1685990618728</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1685990618728</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="day1" />
+    <option name="LAST_COMMIT_MESSAGE" value="day1" />
+  </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
